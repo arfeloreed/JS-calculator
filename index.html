@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <h1>JS Calculator</h1>
+  <div id="calculator-con">
+    <h2 id="displayNum">0</h2>
+    <h4 onclick="formNum(7)">7</h4>
+    <h4 onclick="formNum(8)">8</h4>
+    <h4 onclick="formNum(9)">9</h4>
+    <h4 onclick="formNum(4)">4</h4>
+    <h4 onclick="formNum(5)">5</h4>
+    <h4 onclick="formNum(6)">6</h4>
+    <h4 onclick="formNum(1)">1</h4>
+    <h4 onclick="formNum(2)">2</h4>
+    <h4 onclick="formNum(3)">3</h4>
+    <h4 onclick="formNum(0)">0</h4>
+    <h4 onclick="formNum('.')">.</h4>
+    <h4 onclick="opDiv()" style="grid-row: 2/3; grid-column: 4/5" class="operators">
+      /
+    </h4>
+    <h4 onclick="opMul()" style="grid-row: 3/4; grid-column: 4/5" class="operators">
+      x
+    </h4>
+    <h4 onclick="opSub()" style="grid-row: 4/5; grid-column: 4/5" class="operators">
+      -
+    </h4>
+    <h4 onclick="opSum()" style="grid-row: 5/6; grid-column: 4/5" class="operators">
+      +
+    </h4>
+    <h4 id="equal">=</h4>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
